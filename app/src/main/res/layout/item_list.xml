@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="#4570A8"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+            <CheckBox
+                android:id="@+id/checkBox_alarm_active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@android:color/white"
+                android:buttonTint="@android:color/white"
+                android:padding="5dp" />
+            <TextView
+                android:id="@+id/textView_alarm_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="alarm"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView_alarm_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@android:color/white"
+                android:text="waktu"
+                android:layout_below="@id/textView_alarm_time"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    </RelativeLayout>
